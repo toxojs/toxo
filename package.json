@@ -1,0 +1,56 @@
+{
+  "name": "@toxo/toxo",
+  "version": "1.0.2",
+  "description": "",
+  "main": "./src/index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "lintfix": "eslint --fix .",
+    "test": "eslint --fix . && jest --silent --coverage --maxWorkers=4 .",
+    "start": "node ."
+  },
+  "author": {
+    "email": "jseijas@gmail.com",
+    "name": "Jesus Seijas"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toxojs/toxo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/toxojs/toxo/issues"
+  },
+  "devDependencies": {
+    "eslint": "^8.43.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jest": "^27.2.2",
+    "eslint-plugin-prettier": "^4.2.1",
+    "jest": "^29.5.0",
+    "prettier": "^2.8.8"
+  },
+  "dependencies": {
+    "@toxo/cache": "^1.0.1",
+    "@toxo/database": "^1.2.1",
+    "@toxo/discovery": "^1.0.0",
+    "@toxo/encryption": "^1.1.0",
+    "@toxo/evaluator": "^1.0.1",
+    "@toxo/fun": "^1.0.3",
+    "@toxo/ioc": "^1.1.1",
+    "@toxo/jwtstrategy": "^1.0.0",
+    "@toxo/logger": "^1.0.1",
+    "@toxo/memory": "^1.1.0",
+    "@toxo/rules": "^1.0.1",
+    "@toxo/schema": "^1.0.0",
+    "@toxo/serialize": "^1.0.2",
+    "@toxo/storage": "^1.0.1",
+    "@toxo/transform": "^1.0.1",
+    "@toxo/vault": "^1.0.1",
+    "@toxo/ws": "^1.0.1"
+  }
+}
